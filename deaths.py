@@ -56,8 +56,8 @@ def save_graph():
     ax2.set_ylabel('Antal totalt')
 
     ax.set_ylim(0,120)
-    ax2.set_ylim(0,3600)
-    ax2.set_yticks([0,600,1200,1800,2400,3000,3600])
+    ax2.set_ylim(0,4200)
+    ax2.set_yticks([0,700,1400,2100,2800,3500,4200])
 
     plt.savefig('graphs/deaths.png', bbox_inches='tight')
 
